@@ -1,0 +1,113 @@
+.container{
+    background: #616161;
+}
+
+/*Page Title*/
+#page-title{
+    color: gold;
+    font:bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Homepage Styles */
+h1 {
+    color: rgb(243, 214, 53);
+  }
+  
+  /* Menu Styles */
+  #menu {
+    background-color: #0d0e1f;
+    padding: 10px;
+    border-radius: 30px;
+    
+  }
+  
+  #menu button {
+    background-color: gold;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    font-variant: initial;
+    border-radius: 30px;
+    padding: 8px 16px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+  }
+
+  #menu input[type="text"] {
+    padding: 5px;
+    border:#f44336;
+  }
+  
+  /* Content Styles */
+  #content {
+    align-items: center;
+    padding: 20px;
+    background-color: #616161;
+    border-radius: 30px;
+  }
+  
+  /* Movie List Styles */
+  ul {
+    align-items: center;
+    list-style:upper-latin;
+    padding: 0;
+    background-color: #616161;
+    border-radius: 20px;
+  }
+  
+  ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: #636aef solid 2px;
+    border-color: rgb(98, 203, 230);
+    border-radius: 30px;
+  }
+  
+  ul li img {
+    width: 100px;
+    margin-right: 10px;
+    border-radius: 30px;
+  }
+  
+  ul li h3 {
+    color: gold;
+    margin: 0;
+  }
+  
+  ul li p {
+    color: #616161;
+    margin: 0;
+  }
+  
+  /* Favorite Button Styles */
+  button {
+    background-color: rgb(98, 203, 230);
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+  
+  button.active {
+    background-color: #00e676;
+  }
+  
+  button:disabled {
+    background-color: #e23232;
+    cursor: not-allowed;
+  }
+  
+  /* Remove Button Styles */
+  button.remove-btn {
+    background-color: #f44336;
+    color: #ffffff;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
